@@ -1,0 +1,20 @@
+.popup.popup_is-opened {
+  display: flex;
+}
+
+.popup-profile.popup_is-opened {
+  display: flex;
+}
+
+.popup-image.popup_is-opened {
+  display: flex;
+
+}
+
+/* .popup-image__content.popup_is-opened {
+  display: flex;
+}
+
+.popup-image__picture.popup_is-opened {
+  display: flex;
+} */

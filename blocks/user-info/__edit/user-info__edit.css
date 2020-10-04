@@ -1,0 +1,12 @@
+.user-info__edit {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+    margin-top: 24px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
