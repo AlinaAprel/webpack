@@ -1,4 +1,3 @@
-
 export class UserInfo {
   constructor(formEdit, nameInfo, aboutInfo, editContainer, newFormImage, apiUser) {
     this.formEdit = formEdit;

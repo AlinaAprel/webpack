@@ -1,4 +1,3 @@
-
 export class Card {
   constructor(name, link, newFormImage, itemTemplate) { 
     this.name = name;
@@ -28,10 +27,10 @@ export class Card {
       this.cardImage.addEventListener('click', this.openImage);
     }
 
- openImage = (event) => { 
-  this.newFormImage.setImage(event);
-  this.newFormImage.open();
-}
+    openImage(event) { 
+      this.newFormImage.setImage(event);
+      this.newFormImage.open();
+    }
     removeEventListener() {
       const card = event.target.closest('.place-card');
       /* Надо исправить:

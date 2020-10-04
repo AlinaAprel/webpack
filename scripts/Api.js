@@ -1,8 +1,3 @@
-//54ed1289-fca2-4194-8437-31e37df26610
-//https://nomoreparties.co/cohort12/cards
-//https://nomoreparties.co/cohort12/users/me
-//https://nomoreparties.co/cohort12/users/me
-
 export class Api {
     constructor(config) {
         this.url = config.baseUrl;

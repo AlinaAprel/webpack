@@ -1,4 +1,3 @@
-
 export class CardList {
     constructor(container, api, createCard) {
      this.container = container;
