@@ -33,14 +33,16 @@ const editContainer = {};
 const nameInfo = document.querySelector('.user-info__name');
 const aboutInfo = document.querySelector('.user-info__job');
 
+const serverUrl = NODE_ENV === 'development' ? 'http://nomoreparties.co/cohort12' : 'https://nomoreparties.co/cohort12';
+
+
 const config = {
-  baseUrl: 'https://nomoreparties.co/cohort12',
   headers: {
       authorization: '54ed1289-fca2-4194-8437-31e37df26610',
       'Content-Type': 'application/json'
   }}
 
-const api = new Api(config); 
+const api = new Api(config, serverUrl); 
 api.getCards()
 api.getUserInfo();
 
