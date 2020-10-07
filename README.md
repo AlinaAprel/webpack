@@ -8,7 +8,7 @@
 ### Команда для деплоя | Command for deploy :
 #### npm run deploy
 
-### Больше о этих командах | More about these commmands :
+### Больше об этих командах | More about these commmands :
 #### npm install
 ##### Данная команда устанавливаем все зависимости, которые прописаны в package.json
 ##### This command installs all the dependencies that are written in package.json
