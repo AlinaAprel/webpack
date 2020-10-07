@@ -6,7 +6,7 @@
 ### Команда для сборки | Command for build :
 #### npm run build
 ### Команда для деплоя | Command for deploy :
-### npm run deploy
+#### npm run deploy
 
 ### Больше о этих командах | More about these commmands :
 #### npm install
